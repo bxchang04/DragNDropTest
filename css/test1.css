@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+}
+
+#element {
+  background: black;
+  color: white;
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+}
+
+.dragNdrop::before {
+  content: 'I am draggable';
+  display: block;
+}
+
+.dragNdrop--start::before {
+  content: 'Start';
+  display: block;
+}
+
+.dragNdrop--drag::before {
+  content: 'Drag';
+  display: block;
+}
+
+.dragNdrop--stop::before {
+  content: 'Stop';
+  display: block;
+}
